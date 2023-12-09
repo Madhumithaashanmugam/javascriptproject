@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container{
+    padding: 10px;
+}
+.container-here{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 30px;
+    vertical-align: top;
+
+
+}
+.container-here h2{
+    color: hotpink;
+}
+.container-here button{
+    background-color: hotpink;
+    color: black;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    margin-top: 10px; 
+}
+.button{
+    background-color: hotpink;
+    border-radius: 100px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    border: none;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+}
+.popup{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+
+.popuphere{
+    background-color: hotpink;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    left: 25%;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    display: none;
+}
+.popuphere input{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40%;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black;
+}
+.popuphere textarea{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 95%;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black;
+    border-radius: 10px;
+
+}
+.popuphere button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    margin-top: 10px; 
+}
+.popuphere input::placeholder {
+    color: white;
+}
+.popuphere textarea::placeholder{
+    color: white;
+}
+.popuphere textarea:focus{
+    outline: none;
+}
+.popuphere input:focus{
+    outline: none;
+}

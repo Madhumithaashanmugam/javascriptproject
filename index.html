@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Short Notes</title>
+</head>
+<body>
+    <div id="navbar">
+        <h1>It's my notes</h1>
+    </div>
+    <div class="book-container">
+        <div class="container-here">
+            <h2>heading</h2>
+            <h3>event</h3>
+            <p>here is my example text</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+        </div>
+        
+    </div>
+
+    <div class="popuphere">
+        <h1>Add text</h1>
+        <form action="">
+            <input type="text" name="input" id="book-name" placeholder="Book name">
+            <input type="text" name="input" id="author-name" placeholder="author name">
+            <textarea name="textare" placeholder="text" id="texthere" cols="30" rows="10"></textarea>
+            <button id="addbutton">Add</button>
+            <button id="cancle">CANCLE</button>
+        </form>
+    </div>
+    
+    <h2></h2>
+    
+    
+        <div class="popup"></div>
+        <button class="button" id="click-button">+</button>
+    <script src="booksky.js"></script>
+</body>
+</html>
