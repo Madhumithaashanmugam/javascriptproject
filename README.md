@@ -21,6 +21,7 @@ The Short Notes Web Application allows users to quickly add, view, and delete no
 
 ## How to Use
 1. **Clone the Repository**: Clone this project to your local machine.
+   
    ```bash  https://github.com/Madhumithaashanmugam/javascriptproject.git
  
    
